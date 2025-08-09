@@ -1,0 +1,65 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Snake Game",
+            "type": "shell",
+            "command": "${workspaceFolder}/venv/bin/python",
+            "args": ["snake_game.py"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Setup Virtual Environment",
+            "type": "shell",
+            "command": "python3",
+            "args": ["-m", "venv", "venv"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Install Dependencies",
+            "type": "shell",
+            "command": "${workspaceFolder}/venv/bin/pip",
+            "args": ["install", "-r", "requirements.txt"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            },
+            "problemMatcher": [],
+            "dependsOn": "Setup Virtual Environment"
+        },
+        {
+            "label": "Format Code",
+            "type": "shell",
+            "command": "${workspaceFolder}/venv/bin/black",
+            "args": ["snake_game.py"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

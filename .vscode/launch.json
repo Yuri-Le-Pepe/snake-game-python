@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Snake Game",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/snake_game.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "args": []
+        },
+        {
+            "name": "Python: Snake Game (Debug Mode)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/snake_game.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "DEBUG": "1"
+            },
+            "args": []
+        }
+    ]
+}
