@@ -167,7 +167,9 @@ Have fun with your Snake game! Try to beat the high scores and experiment with t
 
 //-Creator tag
 
-// In all honesty this is just a way for me to start getting back in to programming after 2-3 years in hopes to land future jobs in the tech industry//
+// This was all done on VScode then pushed to github //
+
+// In all honesty this is just a way for me to start getting back in to programming after 2-3 years in hopes to land future jobs in the tech industry //
 
 
-// If anyone sees this hopefully you can give me pointers as the routes I want to get into are, Business/Data Analyst, Software Engineer, Database Admin, Cloud Engineer//
+// If anyone sees this hopefully you can give me pointers as the routes I want to get into are, Business/Data Analyst, Software Engineer, Database Admin, Cloud Engineer //
