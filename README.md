@@ -1,4 +1,4 @@
-# 🐍 Snake Game
+# 🐍 Snake Game project made by Yuri-André
 
 A feature-rich Snake game built with Python and Pygame, complete with sound effects, high scores, and smooth gameplay.
 
@@ -163,4 +163,11 @@ This project is open source. Feel free to use and modify as needed.
 Have fun with your Snake game! Try to beat the high scores and experiment with the code to add your own features.
 
 ---
-*Built with Python 3.13, Pygame 2.6.1, and ❤️*
+*Built with Python 3.13, Pygame 2.6.1*
+
+//-Creator tag
+
+// In all honesty this is just a way for me to start getting back in to programming after 2-3 years in hopes to land future jobs in the tech industry//
+
+
+// If anyone sees this hopefully you can give me pointers as the routes I want to get into are, Business/Data Analyst, Software Engineer, Database Admin, Cloud Engineer//
